@@ -92,7 +92,7 @@ logic [31:0] irq_cause;
 
   
   //подключение main_decoder
-  mega_decoder decoder(
+  decoder decoder(
    .fetched_instr_i(instr_i),
   .a_sel_o(a_sel),
   .b_sel_o(b_sel),

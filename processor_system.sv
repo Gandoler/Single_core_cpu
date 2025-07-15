@@ -1,6 +1,6 @@
 `timescale 1ns / 1ps
 
-module processor_system_13 (
+module processor_system (
   input  logic        clk_i,
   input  logic        resetn_i,
 
